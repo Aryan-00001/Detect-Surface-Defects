@@ -1,0 +1,12 @@
+# neu_det.yaml
+
+# CHANGE THIS: Full path to the directory containing your 'train' and 'test' folders
+path: Z:\New folder\OTML\NEU-DET
+
+# DO NOT CHANGE: Relative path to the image folder inside the 'path:' directory
+train: train/images
+val: test/images
+
+
+nc: 6
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
